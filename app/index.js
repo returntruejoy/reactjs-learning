@@ -1,11 +1,10 @@
 /**
  * Created by turjoy on 4/15/17.
  */
-const React = require('react');
-const ReactDOM = require('react-dom');
-require('./index.css');
-
+import React from 'react';
+import ReactDOM from 'react-dom';
 import App from './components/App';
+import './index.css';
 
 ReactDOM.render(
   <App />,

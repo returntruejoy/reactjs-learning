@@ -10,7 +10,6 @@ function SelectLanguage(props) {
   return (
     <ul className="languages">
       {languages.map(function(lang) {
-        //console.log('down here', this)
         return (
           <li
             style={lang===props.selectedLanguage ? {color: 'red'}:null}
@@ -22,7 +21,6 @@ function SelectLanguage(props) {
 }
 
 function RepoGrid(props) {
-  //console.log(props.repos);
   return (
     <ul className="popular-list">
       {props.repos.map(function (repo, index) {
